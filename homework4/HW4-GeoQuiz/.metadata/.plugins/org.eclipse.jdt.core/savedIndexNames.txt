@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+C:\Users\KL\Documents\GitHub\UofL_Android_Homework\homework4\HW4-GeoQuiz\.metadata\.plugins\org.eclipse.jdt.core
+3434148430.index
+106957985.index
