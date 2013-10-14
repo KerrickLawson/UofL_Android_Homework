@@ -29,6 +29,8 @@ public class QuizActivity extends Activity {
 			private int mCurrentIndex = 0;
 
 	private void updateQuestion() {
+		/*Log.d(TAG, "Updating question text for question #" + mCurrentIndex,
+				new Exception());*/
 		int question = mQuestionBank[mCurrentIndex].getQuestion();
 		mQuestionTextView.setText(question);
 	}	
@@ -51,8 +53,8 @@ public class QuizActivity extends Activity {
 		Log.d(TAG, "onCreate(Bundle) called");
 		setContentView(R.layout.activity_quiz);
 		
+		//mQuestionTextView = (TextView)findViewById(R.id.question_text_view);
 		mQuestionTextView = (TextView)findViewById(R.id.question_text_view);
-		
 		
 		mTrueButton = (Button)findViewById(R.id.true_button);
 		mTrueButton.setOnClickListener(new View.OnClickListener() {
