@@ -47,6 +47,10 @@ public class CrimeLab {
         mCrimes.add(c);
         saveCrimes();
     }
+    
+    public void deleteCrime(Crime c) {
+    	mCrimes.remove(c);
+    	}
 
     public ArrayList<Crime> getCrimes() {
         return mCrimes;
