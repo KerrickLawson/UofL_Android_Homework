@@ -3,7 +3,6 @@ package com.kerricklawson.hw6_criminalintent;
 import java.io.IOException;
 import java.util.List;
 
-import android.R;
 import android.annotation.TargetApi;
 import android.hardware.Camera;
 import android.hardware.Camera.Size;
@@ -17,6 +16,10 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.kerricklawson.criminalintent.R;
+
+
 
 public class CrimeCameraFragment extends Fragment {
     private static final String TAG = "CrimeCameraFragment";
